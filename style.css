@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Heebo:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Heebo:wght@100..900&family=Jacquard+12&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Geologica:wght@100..900&family=Heebo:wght@100..900&family=Jacquard+12&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bokor&family=Geologica:wght@100..900&family=Heebo:wght@100..900&family=Jacquard+12&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+
+
+.header__container a {
+    color: white;
+    text-decoration: none;
+  }
+
+a {
+    text-decoration: none;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+p {
+  font-family: "Bebas Neue", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "Jacquard 12", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section--services {
+  background-color: #000;
+  padding: 20px; 
+  border-top: 4px solid #b99f65; 
+  border-bottom: 4px solid #b99f65; 
+  color: white;
+  text-align: left;
+}
+
+.services__list {
+  column-count: 4;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-gap: 14px;
+  -webkit-column-gap: 14px;
+  -moz-column-gap: 14px;
+}
+
+.service__item {
+  break-inside: avoid;
+  padding: 10px;
+  margin-bottom: 15px; 
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  border: 1px solid #b99f65;
+  border-radius: 5px;
+}
+
+.service__title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service__description {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.section--services h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header__container {
+    font-size: 14px;
+    line-height: 1.75;
+    box-sizing: border-box;
+    border-bottom: solid 2px #B99F65;
+    background-color: #000;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    text-size-adjust: 100%;
+
+}
+
+img {
+    max-width: 100%;
+  }
+
+.header__menu {
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+    font-size: 1.5rem;
+    line-height: normal;
+    height: auto;
+    width: 50px;
+    margin-left: 23px;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    line-height: 1.75;
+    box-sizing: border-box;
+    max-width: 1140px;
+    width: 100%;
+    font-style: normal;
+    
+    
+}
+.header__menu::after {
+    content: ""; 
+  position: absolute; 
+  bottom: 0;
+  left: 50%; 
+  width: 100%;
+  height: 2px;
+  background-color: #B99F65; 
+  transform: translateX(-50%) scaleX(2);
+  transform-origin: center;
+
+}
+
+
+.html {
+    font-size: 14px;
+}
+
+.header__nav {
+    position: relative;
+    top: 0;
+    background-image: url(https://i.pinimg.com/736x/28/e2/16/28e216c28e9ae3e755dc2ff4f060a8b9.jpg);
+    height: auto;
+    overflow: initial;
+    height: 40px;
+}
+
+
+.a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.section.section--intro {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+.section.section--about {
+    font-size: 25px;
+    margin: 100px;
+    width: 300px; 
+    padding: 20px; 
+    border: 2px solid #b99f65; 
+    border-radius: 5px; 
+    background-image: url(https://i.pinimg.com/736x/28/e2/16/28e216c28e9ae3e755dc2ff4f060a8b9.jpg);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    
+}
+
+#body {
+    background-image: url(https://149455152.v2.pressablecdn.com/wp-content/uploads/2017/03/botw-featured.jpg);
+    background-repeat: no-repeat;
+}
+
+.gallery__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .gallery__item {
+    flex: 1 1 250px; 
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .section--about {
+    position: relative; 
+    width: 50%; 
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  
+  .section--gallery {
+    padding-top: 20px;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp3277298.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+  }
+  .section--gallery {
+    background-color: black;
+    padding: 20px;
+    border-top: 5px solid #B99F65;
+    border-bottom: 5px solid #B99F65;
+  }
+  
+  .gallery__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .gallery__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gallery__img {
+    width: 100%; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .gallery__caption {
+    color: white;
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .btn-more {
+    padding: 8px 16px;
+    background-color: #B99F65;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-more:hover {
+    background-color: #997A4A;
+  }
+
+  .section--gallery h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+.section--news {
+    background-color: black;
+    padding: 20px;
+    border-top: 5px solid #B99F65;
+    border-bottom: 5px solid #B99F65;
+  }
+  
+
+  .news__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; 
+    padding: 20px; 
+  }
+  
+  .news__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .news__item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .news__img {
+    width: 100%; 
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .news__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .news__title {
+    color: white;
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .news__date {
+    color: #B99F65;
+    font-size: 0.9rem;
+  }
+  
+  .news__summary {
+    color: #e0e0e0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .btn-more {
+    align-self: flex-start;
+    padding: 8px 16px;
+    background-color: #B99F65;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-more:hover {
+    background-color: #997A4A;
+  }
+  
+.section--news h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.footer {
+  background-image: url('https://cf-images.dustin.eu/cdn-cgi/image/fit=contain,format=auto,quality=75,width=828,fit=contain/image/d200001001252569/nintendo-hyrule-warriors-age-of-calamity.jpg');
+  background-position: center;
+  color: #b99f65; 
+  text-align: center;
+  padding: 20px;
+  font-family: 'Cinzel', serif;
+  border-top: 2px solid #b99f65;
+  box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.footer__content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.footer__text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer__social {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social__link {
+  color: #b99f65;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-family: 'Cinzel', serif;
+}
+
+.social__link:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+}
+
+.footer__content::after {
+  content: "▲"; 
+  display: block;
+  font-size: 24px;
+  color: #b99f65;
+  margin-top: 10px;
+  font-family: 'Cinzel', serif;
+}
+.section.section--contact {
+  background-image: url('https://i.pinimg.com/736x/28/e2/16/28e216c28e9ae3e755dc2ff4f060a8b9.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.section--contact .section__content {
+  max-width: 500px;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section--contact .section__title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #b99f65;
+}
+
+.section--contact .contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.section--contact .form__group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.section--contact .form__label {
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #ddd;
+}
+
+.section--contact .form__input {
+  padding: 10px;
+  border: 1px solid #b99f65;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  color: #000;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.section--contact .form__input:focus {
+  border-color: #fff;
+}
+
+.section--contact .form__button {
+  padding: 10px;
+  background-color: #b99f65;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section--contact .form__button:hover {
+  background-color: #fff;
+  color: #b99f65;
+}
